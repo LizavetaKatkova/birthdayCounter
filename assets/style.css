@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Inter-Light;
+    src: url(./fonts/Inter-Light.ttf);
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url(./fonts/Inter-Bold.ttf);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+}
+
+h1 {
+    font-family: "Inter-Bold";
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+.counter_birthday {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    width: 30vw;
+}
+
+input {
+    height: 2.5em;
+}
+
+.result {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1em;
+    font-family: "Inter-Light";
+}
+
+.button-primary {
+    font-family: "Inter-Light";
+    font-size: 16px;
+    color: #ffffff !important;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 2px hidden #46a5f3;
+    background: #455cad;
+    background: linear-gradient(to top, #455cad, #67d6e0);
+}
+
+.button-primary:hover {
+    color: #ffffff !important;
+    background: #455cad;
+    background: linear-gradient(to top, #67d6e0, #455cad);
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
